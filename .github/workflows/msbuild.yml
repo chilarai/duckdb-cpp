@@ -21,4 +21,4 @@ jobs:
       run: |
         cmake -G "NMake Makefiles" .
         nmake
-        cl main.cpp /Ehsc /link duckdb.li
+        cl main.cpp /Ehsc /link duckdb.lib
