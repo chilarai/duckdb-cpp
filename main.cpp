@@ -5,7 +5,7 @@
  */
 
 #include <iostream>
-#include "src/include/duckdb.hpp"
+#include "duckdb.hpp"
 
 using namespace duckdb;
 
