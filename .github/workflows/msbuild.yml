@@ -8,4 +8,4 @@ jobs:
     - uses: actions/checkout@v1
     - uses: ilammy/msvc-dev-cmd@v1
     - name: Build something requiring CL.EXE
-      run: cl -I src/include/ main.cpp  /link src/include/duckdb.lib
+      run: cl -I src/include/ main.cpp
